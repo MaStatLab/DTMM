@@ -1,7 +1,7 @@
 DTMM: Dirichlet-tree Multinomial Mixtures for clustering microbiome compositions
 ================================================================================
 
-Perform unsupervised clustering of amplicon sequencing data in microbiome studies with the Dirichlet-tree Multinomial Mixtures. For more information, see Mao and Ma. (2020).
+Perform unsupervised clustering of amplicon sequencing data in microbiome studies with the Dirichlet-tree Multinomial Mixtures. For more information, see Mao and Ma (2020).
 
 ### Install
 The package can be installed on Linux and Mac using `devtools`:
