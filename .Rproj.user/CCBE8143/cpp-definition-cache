@@ -1,0 +1,473 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 65,
+                "name" : "get_new_node(unsigned int)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@get_new_node#i#"
+            },
+            {
+                "column" : 54,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 77,
+                "name" : "get_edge_map(Mat<unsigned int>)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@get_edge_map#$@N@arma@S@Mat>#i#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 90,
+                "name" : "construct_subtree(Node *, int)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@construct_subtree#*$@S@Node#I#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 112,
+                "name" : "aggregate_data(Node *, Mat<unsigned int>)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@aggregate_data#*$@S@Node#$@N@arma@S@Mat>#i#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 134,
+                "name" : "get_theta_0(Node *)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@get_theta_0#*$@S@Node#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 154,
+                "name" : "get_gamma(Node *)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@get_gamma#*$@S@Node#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 174,
+                "name" : "init",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@init#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 196,
+                "name" : "clear_node(Node *)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@clear_node#*$@S@Node#"
+            },
+            {
+                "column" : 20,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 213,
+                "name" : "compute_node_log_ml(Col<unsigned int>, Col<unsigned int>, double, arma::vec, arma::vec, arma::vec)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_node_log_ml#$@N@arma@S@Col>#i#S0_#d#$@N@arma@S@Col>#d#S1_#S1_#"
+            },
+            {
+                "column" : 31,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 229,
+                "name" : "get_data_subset(Col<unsigned int>, Node *)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@get_data_subset#$@N@arma@S@Col>#i#*$@S@Node#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 245,
+                "name" : "compute_subtree_log_ml(Node *, Mat<unsigned int>, Col<unsigned int>, bool)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_subtree_log_ml#*$@S@Node#$@N@arma@S@Mat>#i#$@N@arma@S@Col>#i#b#"
+            },
+            {
+                "column" : 20,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 284,
+                "name" : "compute_log_ml(Col<unsigned int>, bool)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_log_ml#$@N@arma@S@Col>#i#b#"
+            },
+            {
+                "column" : 54,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 301,
+                "name" : "init_label(Col<unsigned int>)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@init_label#$@N@arma@S@Col>#i#"
+            },
+            {
+                "column" : 31,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 316,
+                "name" : "get_unique_label(int)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@get_unique_label#I#"
+            },
+            {
+                "column" : 34,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 332,
+                "name" : "get_available_label(int)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@get_available_label#I#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 351,
+                "name" : "sample(Col<unsigned int> &, int &, int &, int &)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@sample#&$@N@arma@S@Col>#i#&I#S2_#S2_#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 459,
+                "name" : "compute_lambda_L1(int &)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_lambda_L1#&I#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 479,
+                "name" : "reset_L1(Node *)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@reset_L1#*$@S@Node#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 497,
+                "name" : "compute_subtree_lambda_L1(Node *, Col<unsigned int>)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_subtree_lambda_L1#*$@S@Node#$@N@arma@S@Col>#i#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 519,
+                "name" : "compute_lambda_L0",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_lambda_L0#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 528,
+                "name" : "compute_subtree_lambda_L0(Node *)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_subtree_lambda_L0#*$@S@Node#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 549,
+                "name" : "sample_gamma(int &, Col<unsigned int> &)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@sample_gamma#&I#&$@N@arma@S@Col>#i#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 559,
+                "name" : "sample_subtree_gamma(Node *, Col<unsigned int> &)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@sample_subtree_gamma#*$@S@Node#&$@N@arma@S@Col>#i#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 593,
+                "name" : "sample_precision(double &, unsigned int, int)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@sample_precision#&d#i#I#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 621,
+                "name" : "get_precision_grid(int &, double, double)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@get_precision_grid#&I#d#d#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 636,
+                "name" : "sample_lambda_global(double &, unsigned int)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@sample_lambda_global#&d#i#"
+            },
+            {
+                "column" : 40,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 655,
+                "name" : "sample_mcmc(unsigned int, int &, int &)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@sample_mcmc#i#&I#S0_#"
+            },
+            {
+                "column" : 20,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 714,
+                "name" : "compute_node_log_exp(Col<unsigned int>, Col<unsigned int>, double, arma::vec, arma::vec, arma::vec, bool)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_node_log_exp#$@N@arma@S@Col>#i#S0_#d#$@N@arma@S@Col>#d#S1_#S1_#b#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 733,
+                "name" : "compute_subtree_log_exp(Node *, Mat<unsigned int>, Col<unsigned int>, bool)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_subtree_log_exp#*$@S@Node#$@N@arma@S@Mat>#i#$@N@arma@S@Col>#i#b#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 779,
+                "name" : "compute_log_exp(Col<unsigned int>, bool)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_log_exp#$@N@arma@S@Col>#i#b#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 787,
+                "name" : "compute_posterior_centroid_subtree(Node *, Col<unsigned int>, int &)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_posterior_centroid_subtree#*$@S@Node#$@N@arma@S@Col>#i#&I#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 808,
+                "name" : "compute_posterior_centroid(Col<unsigned int>, int &)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_posterior_centroid#$@N@arma@S@Col>#i#&I#"
+            },
+            {
+                "column" : 38,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 816,
+                "name" : "compute_centroid",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_centroid#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 835,
+                "name" : "compute_posterior_diffdisp_subtree(Node *, Col<unsigned int>, int &)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_posterior_diffdisp_subtree#*$@S@Node#$@N@arma@S@Col>#i#&I#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 855,
+                "name" : "compute_posterior_diffdisp(Col<unsigned int>, int &)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_posterior_diffdisp#$@N@arma@S@Col>#i#&I#"
+            },
+            {
+                "column" : 38,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 864,
+                "name" : "compute_diff_disp",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@compute_diff_disp#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 886,
+                "name" : "traverse(Node *, int)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@traverse#*$@S@Node#I#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+                "kind" : 7,
+                "line" : 905,
+                "name" : "get_transformed_data(Node *, arma::mat &)",
+                "parent_name" : "class_HDTM",
+                "usr" : "c:@S@class_HDTM@F@get_transformed_data#*$@S@Node#&$@N@arma@S@Mat>#d#"
+            }
+        ],
+        "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.cpp",
+        "file_last_write" : 1591908198.000000
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.hpp",
+                "kind" : 2,
+                "line" : 9,
+                "name" : "class_HDTM",
+                "parent_name" : "",
+                "usr" : "c:@S@class_HDTM"
+            }
+        ],
+        "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/HDTM.hpp",
+        "file_last_write" : 1591908203.000000
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/helpers.cpp",
+                "kind" : 6,
+                "line" : 15,
+                "name" : "log_exp_x_plus_exp_y(double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@log_exp_x_plus_exp_y#d#d#"
+            },
+            {
+                "column" : 16,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/helpers.cpp",
+                "kind" : 6,
+                "line" : 42,
+                "name" : "compute_lgamma(const int)",
+                "parent_name" : "",
+                "usr" : "c:@F@compute_lgamma#1I#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/helpers.cpp",
+                "kind" : 6,
+                "line" : 61,
+                "name" : "eval_log_g(unsigned int, unsigned int, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@eval_log_g#i#i#d#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/helpers.cpp",
+                "kind" : 6,
+                "line" : 107,
+                "name" : "eval_log_h(double, double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@eval_log_h#d#d#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/helpers.cpp",
+                "kind" : 6,
+                "line" : 118,
+                "name" : "eval_log_int_g(Col<unsigned int>, Col<unsigned int>, double, arma::vec)",
+                "parent_name" : "",
+                "usr" : "c:@F@eval_log_int_g#$@N@arma@S@Col>#i#S0_#d#$@N@arma@S@Col>#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/helpers.cpp",
+                "kind" : 6,
+                "line" : 142,
+                "name" : "eval_log_int_g_exp(Col<unsigned int>, Col<unsigned int>, double, arma::vec, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@eval_log_int_g_exp#$@N@arma@S@Col>#i#S0_#d#$@N@arma@S@Col>#d#b#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/helpers.cpp",
+                "kind" : 6,
+                "line" : 196,
+                "name" : "eval_log_int_h(double, arma::vec, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@eval_log_int_h#d#$@N@arma@S@Col>#d#d#"
+            }
+        ],
+        "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/helpers.cpp",
+        "file_last_write" : 1585229875.000000
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/helpers.h",
+                "kind" : 3,
+                "line" : 14,
+                "name" : "Node",
+                "parent_name" : "",
+                "usr" : "c:@S@Node"
+            }
+        ],
+        "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/helpers.h",
+        "file_last_write" : 1585229875.000000
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 12,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/main.cpp",
+                "kind" : 6,
+                "line" : 15,
+                "name" : "HDTMcpp(arma::Mat<unsigned int>, arma::Mat<unsigned int>, arma::vec, arma::vec, arma::vec, arma::Col<unsigned int>, arma::Col<unsigned int>, double, unsigned int, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@HDTMcpp#$@N@arma@S@Mat>#i#S0_#$@N@arma@S@Col>#d#S1_#S1_#$@N@arma@S@Col>#i#S2_#d#i#b#"
+            },
+            {
+                "column" : 12,
+                "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/main.cpp",
+                "kind" : 6,
+                "line" : 50,
+                "name" : "HDTMcpp_centroid(arma::Mat<unsigned int>, arma::Mat<unsigned int>, arma::vec, arma::vec, arma::vec, arma::Col<unsigned int>, arma::Col<unsigned int>)",
+                "parent_name" : "",
+                "usr" : "c:@F@HDTMcpp_centroid#$@N@arma@S@Mat>#i#S0_#$@N@arma@S@Col>#d#S1_#S1_#$@N@arma@S@Col>#i#S2_#"
+            }
+        ],
+        "file" : "/Users/jialiangmao/Dropbox/Research/Phylo_cluster/DTMM/src/main.cpp",
+        "file_last_write" : 1591908207.000000
+    }
+]
