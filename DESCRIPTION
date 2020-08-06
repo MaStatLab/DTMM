@@ -10,4 +10,5 @@ License: CC0
 Encoding: UTF-8
 LazyData: true
 LinkingTo: Rcpp, RcppArmadillo 
-Imports: Rcpp, RcppArmadillo 
+Imports: Rcpp, RcppArmadillo, ape
+RoxygenNote: 6.1.1
