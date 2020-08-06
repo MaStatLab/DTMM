@@ -1,4 +1,0 @@
-useDynLib(DTMM)
-import(Rcpp)
-exportPattern("^[[:alpha:]]+")
-export(DTMM)
